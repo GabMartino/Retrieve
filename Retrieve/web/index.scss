@@ -1,0 +1,66 @@
+// Imports
+// 
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Vars and Reset
+// 
+$theme:       #454cad;
+$dark-text:   #5f6982;
+
+html   { height: 100%; text-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-image: url("./assets/sketches.jpg");
+  font-size: 24px;
+
+}
+h1{
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  margin-bottom: 1%;
+}
+h2{
+  color: #454cad;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  margin: 1% 1% 1% 1%;
+}
+canvas{
+  border: 2px solid;
+  width: 400px;
+  height: 400px;
+
+  background-color: white;
+}
+#Container{
+  
+  font-size: large;
+  #Search{
+    height: 50px;
+    width: 200px;
+    margin: 5% 10% 10% 10%;
+  }
+  #Erase{
+    height: 50px;
+    width: 200px;
+    margin: 5% 10% 10% 10%;
+  }
+  #Upload{
+    height: 50px;
+    width: 200px;
+  }
+}
+#Results{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #5f6982;
+  padding: 2% 2% 2% 2%;
+  div{
+    margin: auto;
+    img{
+      padding: 2% 2% 2% 2%;
+    }
+  }
+}

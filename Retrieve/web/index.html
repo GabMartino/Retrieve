@@ -1,0 +1,27 @@
+<html>
+   <head>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="index.scss">
+    <title>Image Sketch Retrieval</title>
+    </head>
+    
+    <body onload="init()">
+        <h1>
+          Sketches Image Retrieval
+        </h1>
+        <h2>
+          Draw
+        </h2>
+        <canvas id="canvasimg" width="400" height="400"></canvas>
+        <div id="Container">
+          <input id="Search" type="button" value="Send" id="btn"  onclick="save()">
+          <input id="Upload" type="file" accept="image/*" value="Upload" id="upbtn" >
+          <input id="Erase" type="button" value="Clear" id="clr"  onclick="erase()" >
+        </div>
+        <div id="Results">
+
+
+        </div>
+    </body>
+</html>
